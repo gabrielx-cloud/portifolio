@@ -1,0 +1,24 @@
+<meta charset="Utf-8">
+
+<script>
+
+    let continua = "s"
+    
+    let nomes = []
+
+    let i = 0;
+    
+    while (continua== 's'){
+
+       let nome = prompt("Digite o nome dos professores");
+
+       nomes[i] = nome
+
+       continua = prompt("Digite (S) para continuar")
+    i++;
+
+    }
+    
+    document.write("Nomes cadastrados:" + "<br>" + nomes)
+
+</script>
